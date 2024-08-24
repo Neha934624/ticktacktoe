@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: cadetblue;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 1.4vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: antiquewhite;
+    color: brown;
+    border-radius: 1rem;
+    display: flex;
+    box-shadow: 0 0 5px black;
+    border: none;
+    font-size: 8vmin;
+    justify-content: center;
+    align-items: center;
+}
+
+.resetBtn{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius:1.4rem ;
+    border: none;
+}
+.startbut{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius:1.4rem ;
+    border: none;
+}
+.winner{
+    font-size: 2rem;
+    color: antiquewhite;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+.hide{
+    display: none;
+}
